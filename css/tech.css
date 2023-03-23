@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+body{
+    font-family: 'roboto';
+}
+/* Header */
+header{
+    
+    height: 200px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.logo{
+    
+    height: 160px;
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 96%;
+    padding-left: 6%;
+    padding-top: 5%;
+}
+
+.one{
+    
+    height: 160px;
+    width: 40%;
+    float: left;
+}
+.tip{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.tip p{
+    font-size: 141%;
+    color: darkgray;
+}
+.tip a{
+    text-decoration: none;
+    color: green;
+}
+.link{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.link li{
+    float: left;
+    margin-left: 7%;
+    list-style: none;
+}
+.link ul{
+    font-size: 133%;
+    margin-left: -10%;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.two{
+    
+    height: 160px;
+    width: 40%;
+    float: left;
+}
+.follow{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.follow ul{
+    margin-left: 29%;
+}
+.follow li{
+    float: left;
+    margin-left: -12%;
+    list-style: none;
+}
+.follow p{
+    float: left;
+    font-size: 160%;
+    margin-top: 3%;
+    margin-left: 7%;
+    color: grey;
+}
+.follow img{
+    width: 44%;
+}
+.message{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+#button{
+    float: left;
+    margin-left: 15%;
+    padding: 2%;
+    background-color: rgba(62,67,62,255);
+    color: white;
+}
+.search{
+    padding: 2%; 
+}
+.search input{
+    font-size: 130%;
+}
+.search button{
+    font-size: 119%;
+}
+
+.three{
+    
+    height: 40px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgba(15,74,0,255);
+}
+.three h4{
+    margin: 1%;
+}
+.three span{
+    color: white;
+}
+.three a{
+    color: white;
+}
+/* watch now sect
+ion */
+.left{
+    
+    height: 600px;
+    width: 70%;
+    float: left;
+}
+.leftl{
+    
+    height: 550px;
+    width: 60%;
+    float: left;
+}
+.watch{
+    
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.watch h3{
+    font-size: 160%;
+    margin: 2%;
+}
+.watch a{
+    text-decoration: none;
+    color: rgba(62,67,62,255);
+}
+.watch span{
+    color: rgba(19,165,46,255);
+}
+.man{
+    
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.man img{
+    width: 99%;
+    height: 83%;
+    padding-left: 5%;
+}
+.man p{
+    margin-left: 3%;
+    margin-top: -1%;
+    color: lightgray;
+}
+/* featured stories */
+.leftr{
+    
+    
+    width: 40%;
+    float: left;
+}
+.feat{
+    
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.art{
+    
+    
+    width: 100%;
+    float: left;
+}
+.feat h3{
+    font-size: 146%;
+    margin: 4%;
+    color: rgba(62,67,67,255);
+}
+.art a{
+    text-decoration: none;
+    color: rgba(62,67,63,255);
+}
+.art img{
+    float: left;
+    width: 41%;
+}
+.art h3{
+    font-size: 123%;}
+.art p{
+    margin-top: -5%;
+    color: lightgray;
+}
+
+.leftb{
+    
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+/* have a tip side */
+.right{
+    
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+.rightt{
+    
+    height: 200px;
+    width: 100%;
+    float: left;
+    background-color: rgba(236,236,236,255);
+}
+.rightt a{
+    text-decoration: none;
+    color: rgba(8,165,87,255);
+}
+.rightt p{
+    font-size: 255%;
+    padding-left: 2%;
+    color: grey;
+}
+/* newsletter side */
+
+.rightb{
+    
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: rgba(236,236,236,255)
+}
+/* newsletter side */
+.newss{
+    
+    height: 370px;
+    width: 95%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: white;
+}
+.sub{
+    
+    height: 50px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgba(15,74,0,255);
+}
+.sub h3{
+    color: white;
+}
+.daily{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.h4p h4{
+margin-top: -5%;
+padding-left: 6%;
+}
+.h4p p{
+    padding-left: 6%;
+    margin-top: -4%;
+    color: grey;
+}
+.tv{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.crunch{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.email{
+    
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.subb{
+    padding-left: 9%;
+}
+.subb input{
+    width: 62%;
+    
+}
+.subb button{
+    float: right;
+    padding-right: 0%;
+    background-color: green;
+    color: white;
+}
+.email p{
+    padding-left: 25%;
+    color: green;
+}
+.email a{
+    text-decoration: none;
+    color: grey;
+    
+}
+@media(max-width: 1226px){
+    .follow ul{
+        margin-left: 20%;
+    }
+    .follow p{
+        display: none;
+    }
+}
+
+@media(max-width: 1153px){
+    #button{
+        display: none;
+    }
+}
+@media(max-width: 1097px){
+    .hide{
+        display: none;
+    }
+    .rightt p{
+        font-size: 200%;
+    }
+}
+@media(max-width: 1025px){
+    .hidee{
+        display: none;
+    }
+}
+@media( max-width: 968px){
+    .right{
+        display: none
+    }
+    .left{
+        width: 100%;
+    }
+    .three{
+        display: none;
+    }
+}
+@media(max-width: 770px){
+    .tip{
+        display: none;
+    }
+    .follow{
+        display: none;
+    }
+    .one,.two{
+        height: 80px;
+        width: 80%
+    }
+    .hidee{
+        display: block;
+    }
+}
+@media(max-width: 750px){
+    .leftl{
+        width: 100%;
+    }
+    .leftr{
+        width: 100%;
+    }
+    .feat h3{
+        margin: 2%;
+    }
+    .art img{
+        width: 23%;
+    }
+    .art p{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+}
+@media (max-width: 510px){
+    .hidee{
+        display: none;
+    }
+}
